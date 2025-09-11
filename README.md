@@ -25,7 +25,6 @@ A modern, responsive web-based phonebook application with a clean UI and full CR
 - **Python HTTP Server** - Simple static file server with CORS headers
 
 ## 📁 Project Structure
-
 ```
 phonebook-app/
 ├── index.html          # Main HTML file
