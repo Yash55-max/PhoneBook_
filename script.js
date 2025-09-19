@@ -291,7 +291,7 @@ class Phonebook {
             try {
                 const response = await fetch(`${this.apiUrl}/${contactId}`, {
                     method: "PUT",
-                    headers: { "Content-Type": "application/json" },
+                    headers: { "Content-Type": "application/json"},
                     body: JSON.stringify(updatedContact)
                 });
                 if (!response.ok) throw new Error("Failed to update favourite");
