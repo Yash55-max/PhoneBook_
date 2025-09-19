@@ -89,7 +89,7 @@ app.delete('/api/contacts/:id', (req, res) => {
 });
 
 // Catch-all error handler for unexpected errors
-app.use((err, req, res, next) => {
+app.use((err,req, res, next) => {
     console.error('UNEXPECTED ERROR:', err);
     res.status(500).send('Internal Server Error');
 });
