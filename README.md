@@ -41,7 +41,7 @@ phonebook-app/
 
 ### Option 1: Using Node.js/Express Backend
 
-1. **Install dependencies:**
+1. **Install dependencies:*
    ```bash
    npm install
    ```
